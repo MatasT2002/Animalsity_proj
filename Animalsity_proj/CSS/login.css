@@ -1,0 +1,143 @@
+﻿body {
+    font-family: "Fredoka", sans-serif !important;
+}
+
+.bg-header-login {
+    background-color: #2E324D;
+}
+
+.navbar {
+    height: 10vh;
+}
+
+.header-text1 {
+    color: white;
+    font-size: 24pt;
+    font-weight: 500;
+}
+
+.header-text2 {
+    color: white;
+    font-size: 16pt;
+}
+
+.text-login-left {
+    color: #8CA1E4;
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+.content {
+    height: 90vh;
+}
+
+.content-right {
+    border-radius: 20px;
+    border: 10px solid #FFE0DE;
+    width: 60%;
+    padding: 2rem;
+}
+
+.register-text {
+    font-weight: 400;
+    font-size: 18pt;
+    color: #2E324D;
+}
+
+.next-btn {
+    width: 100%;
+    padding: 0.5rem;
+    color: #F9F6F1;
+    background-color: #8CA1E4;
+    border-radius: 10px;
+    border: none;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #B8DCEC;
+    margin: 0 10px;
+}
+
+.text {
+    white-space: nowrap;
+    color: #B8DCEC;
+}
+
+.btn-social {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: white;
+}
+
+    .btn-social:hover {
+        background-color: #E4E8F5;
+    }
+
+@media (max-width: 1200px) {
+    .content-right {
+        width: 80%;
+    }
+
+
+    @media (max-width: 992px) {
+        .next-btn, .form-control {
+            padding: 0.75rem; /* ปรับ padding สำหรับปุ่มและฟิลด์ฟอร์ม */
+        }
+    }
+
+    @media (max-width: 768px) {
+        .text-login-left {
+            font-size: 30pt;
+        }
+
+        .content-right {
+            width: 60%;
+        }
+
+        .next-btn {
+            padding-bottom: 0.3rem;
+            padding-top: 0.3rem;
+        }
+
+        .content-right {
+            width: 80%; /* Adjust content width */
+            padding: 1rem; /* Adjust padding */
+        }
+
+        .header-text1, .header-text2 {
+            font-size: 18pt; /* ลดขนาดตัวอักษรเมื่อหน้าจอเล็กลง */
+        }
+
+        .btn-social {
+            width: 90%;
+            margin-top: 1rem;
+        }
+
+        .navbar {
+            height: 10vh; /* ปรับความสูงของ navbar เพื่อไม่ให้แคบเกินไป */
+        }
+    }
+
+    @media (max-width: 576px) {
+        .navbar {
+            height: 8vh;
+        }
+
+        .btn-social {
+            width: 90%; /* Adjust button width */
+        }
+
+        .content-right {
+            width: 95%; /* ปรับให้กล่องเต็มกว้างของหน้าจอบนอุปกรณ์มือถือ */
+            padding: 1rem; /* ลด padding เพื่อเพิ่มพื้นที่ใช้สอย */
+        }
+
+        .header-text1, .header-text2 {
+            font-size: 14pt; /* ลดขนาดตัวอักษรสำหรับหัวข้อ */
+        }
+    }
+}
